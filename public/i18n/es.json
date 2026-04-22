@@ -158,9 +158,67 @@
       "link3": "Twitter",
       "link4": "LinkedIn"
     },
-    "copyright": "© 2025 VantagePMO. Todos los derechos reservados.",
+    "copyright": "© 2026 VantagePMO. Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "cookies": "Configuración de cookies"
+  },
+  "products": {
+    "label": "Plataforma",
+    "heading": "Una plataforma, cada necesidad",
+    "subheading": "Cada módulo resuelve un desafío específico, y juntos impulsan operaciones de proyectos sin fricciones.",
+    "card1": {
+      "tag": "Vantage PMO · Proyectos",
+      "heading": "Planificación, ejecución y entrega impulsadas por IA",
+      "text": "Lleva proyectos y procesos hacia adelante a escala, con inteligencia que ejecuta, construye y automatiza por ti.",
+      "cta": "Comenzar"
+    },
+    "card2": {
+      "tag": "Vantage PMO · Portafolio",
+      "heading": "Visibilidad de portafolio que te da control",
+      "text": "Ve todos tus proyectos a la vez. Rastrea salud, riesgo y progreso desde un único centro de mando.",
+      "cta": "Comenzar"
+    },
+    "card3": {
+      "tag": "Vantage PMO · Analítica",
+      "heading": "Decisiones basadas en datos que generan resultados",
+      "text": "Convierte datos crudos de proyectos en inteligencia para el liderazgo. Mejor pronóstico, acción más rápida.",
+      "cta": "Comenzar"
+    },
+    "card4": {
+      "tag": "Vantage PMO · Automatización",
+      "heading": "Automatiza el trabajo que nadie quiere hacer",
+      "text": "Desde recordatorios hasta reportes, deja que la automatización inteligente maneje las tareas repetitivas para que tu equipo se enfoque en lo que importa.",
+      "cta": "Comenzar"
+    },
+    "card5": {
+      "tag": "Vantage PMO · Recursos",
+      "heading": "Las personas correctas en los proyectos correctos",
+      "text": "Controla la capacidad, asigna recursos inteligentemente y previene el agotamiento antes de que ocurra.",
+      "cta": "Comenzar"
+    },
+    "card6": {
+      "tag": "Vantage PMO · Reportes",
+      "heading": "Reportes que realmente se leen",
+      "text": "Reportes auto-generados para stakeholders con las métricas que importan, entregados según tu calendario.",
+      "cta": "Comenzar"
+    },
+    "card7": {
+      "tag": "Vantage PMO · Integraciones",
+      "heading": "Conecta cada herramienta que tu equipo ya usa",
+      "text": "Integraciones nativas con Jira, Slack, Teams y más de 40 herramientas. Una sola fuente de verdad, cero fricción.",
+      "cta": "Comenzar"
+    }
+  },
+  "ai": {
+    "label": "Inteligencia",
+    "heading": "Tu asistente inteligente de proyectos",
+    "subheading": "Pregunta lo que quieras. Obtén respuestas respaldadas por tus datos reales de proyectos.",
+    "prompt1": "Crear un plan de proyecto",
+    "prompt2": "Resumir el estado del proyecto",
+    "prompt3": "Identificar tareas en riesgo",
+    "prompt4": "Generar un reporte para stakeholders",
+    "prompt5": "Pronosticar fecha de entrega",
+    "input": "Pregunta a Vantage AI..."
   }
 }

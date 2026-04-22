@@ -158,9 +158,67 @@
       "link3": "Twitter",
       "link4": "LinkedIn"
     },
-    "copyright": "© 2025 VantagePMO. All rights reserved.",
+    "copyright": "© 2026 VantagePMO. All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of service",
     "cookies": "Cookie settings"
+  },
+  "products": {
+    "label": "Platform",
+    "heading": "One platform, every need",
+    "subheading": "Each module solves a specific challenge, and together they power seamless project operations.",
+    "card1": {
+      "tag": "Vantage PMO · Projects",
+      "heading": "AI-driven planning, execution & delivery",
+      "text": "Drive projects and processes forward at scale, with intelligence that executes, builds, and automates for you.",
+      "cta": "Get started"
+    },
+    "card2": {
+      "tag": "Vantage PMO · Portfolio",
+      "heading": "Portfolio visibility that gives you control",
+      "text": "See every project at once. Track health, risk, and progress from a single command center.",
+      "cta": "Get started"
+    },
+    "card3": {
+      "tag": "Vantage PMO · Analytics",
+      "heading": "Data-first decisions that deliver results",
+      "text": "Turn raw project data into leadership intelligence. Forecast better, act faster.",
+      "cta": "Get started"
+    },
+    "card4": {
+      "tag": "Vantage PMO · Automation",
+      "heading": "Automate the work no one wants to do",
+      "text": "From reminders to reports, let smart automation handle the repetitive tasks so your team can focus on what matters.",
+      "cta": "Get started"
+    },
+    "card5": {
+      "tag": "Vantage PMO · Resources",
+      "heading": "Right people on the right projects",
+      "text": "Track capacity, allocate resources intelligently, and prevent burnout before it starts.",
+      "cta": "Get started"
+    },
+    "card6": {
+      "tag": "Vantage PMO · Reporting",
+      "heading": "Reports that actually get read",
+      "text": "Auto-generated stakeholder reports with the metrics that matter — delivered on your schedule.",
+      "cta": "Get started"
+    },
+    "card7": {
+      "tag": "Vantage PMO · Integrations",
+      "heading": "Connect every tool your team already uses",
+      "text": "Native integrations with Jira, Slack, Teams, and 40+ tools. One source of truth, zero friction.",
+      "cta": "Get started"
+    }
+  },
+  "ai": {
+    "label": "Intelligence",
+    "heading": "Your smart project assistant",
+    "subheading": "Ask anything. Get answers backed by your real project data.",
+    "prompt1": "Create a project plan",
+    "prompt2": "Summarize project status",
+    "prompt3": "Identify at-risk tasks",
+    "prompt4": "Generate a stakeholder report",
+    "prompt5": "Forecast delivery date",
+    "input": "Ask Vantage AI..."
   }
 }
