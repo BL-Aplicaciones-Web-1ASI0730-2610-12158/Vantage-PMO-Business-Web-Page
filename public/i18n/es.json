@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Vantage PMO – Centraliza tus proyectos",
+    "description": "Vantage PMO aporta claridad a cada proyecto. Visibilidad en tiempo real, procesos estandarizados y la inteligencia que necesitas para liderar."
+  },
+  "nav": {
+    "home": "Inicio",
+    "platform": "Plataforma",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "login": "Iniciar sesión",
+    "cta": "Pruébalo"
+  },
+  "hero": {
+    "heading": "Centraliza tus proyectos, controla tu futuro.",
+    "subheading": "Vantage PMO aporta claridad a cada proyecto. Visibilidad en tiempo real, procesos estandarizados y la inteligencia que necesitas para liderar.",
+    "cta_primary": "Comenzar ahora",
+    "cta_secondary": "Saber más"
+  },
+  "pillars": {
+    "label": "Contexto",
+    "heading": "Tres pilares de la gestión",
+    "subheading": "Todo lo que necesitas para ejecutar proyectos correctamente",
+    "card1": {
+      "label": "Control",
+      "title": "Un solo lugar para todo",
+      "text": "Deja de dispersarte entre sistemas para gestionar datos de proyectos.",
+      "cta": "Explorar"
+    },
+    "card2": {
+      "label": "Visibilidad",
+      "title": "Ve lo que importa ahora",
+      "text": "Conoce el estado de tus proyectos en tiempo real.",
+      "cta": "Explorar"
+    },
+    "card3": {
+      "label": "Claridad",
+      "title": "Toma decisiones que impulsan proyectos",
+      "text": "Elimina las suposiciones que no puedes creer cada día.",
+      "cta": "Explorar"
+    }
+  },
+  "features": {
+    "f1": {
+      "label": "Resultados",
+      "title": "Qué cambia cuando tomas el control",
+      "text": "Los proyectos avanzan más rápido. Los equipos entienden lo que importa. Los líderes toman mejores decisiones.",
+      "cta1": "Descubrir",
+      "cta2": "Aprender"
+    },
+    "f2": {
+      "label": "Alineados",
+      "title": "Los proyectos terminan a tiempo, los equipos se mantienen alineados",
+      "text": "Los retrasos desaparecen cuando todos ven el mismo panorama. Vantage PMO elimina el ruido para que tus equipos avancen juntos.",
+      "cta1": "Aprender"
+    },
+    "f3": {
+      "label": "Claridad",
+      "title": "Comunicación que realmente funciona",
+      "text": "No más esperas por actualizaciones de estado. Tus equipos saben qué se espera de ellos y los líderes saben qué está pasando, ahora mismo.",
+      "cta1": "Aprender"
+    },
+    "f4": {
+      "label": "Confianza",
+      "title": "Decisiones basadas en hechos, no en intuición",
+      "text": "Los datos reales reemplazan las suposiciones. Tu equipo de liderazgo toma decisiones más inteligentes, respaldadas por números.",
+      "cta1": "Explorar",
+      "cta2": "Aprender"
+    }
+  },
+  "about": {
+    "label": "Progreso",
+    "heading": "Construido por ingenieros que entienden los proyectos",
+    "text": "MEPB comenzó como OPC, donde los ingenieros de software vieron el mismo problema en todas partes: los proyectos fallaban no por falta de habilidades, sino por falta de claridad. Construimos Vantage PMO para solucionarlo.",
+    "cta1": "Sobre nosotros",
+    "cta2": "Aprender"
+  },
+  "onboarding": {
+    "heading": "Comenzar toma minutos, no meses",
+    "subheading": "Configura tu espacio de trabajo y lleva tus proyectos. Vantage PMO se encarga del resto.",
+    "step1": {
+      "title": "Conecta tus proyectos a la plataforma",
+      "text": "Importa lo que quieras. Comienza desde cero. Integra a tus equipos con plantillas estandarizadas.",
+      "cta": "Comenzar ahora"
+    },
+    "step2": {
+      "title": "Observa cómo tu portafolio cobra claridad",
+      "text": "Ve el estado donde lo necesites. Proyectos. Tareas. Planes.",
+      "cta": "Comenzar ahora"
+    },
+    "step3": {
+      "title": "Lidera con confianza y datos",
+      "text": "Toma decisiones respaldadas por inteligencia, no solo por hábito.",
+      "cta": "Comenzar ahora"
+    }
+  },
+  "testimonials": {
+    "heading": "Voces reales",
+    "subheading": "Lo que dicen los líderes de proyectos sobre Vantage PMO",
+    "t1": {
+      "quote": "Dejamos de perder el rastro de los plazos en el momento en que cambiamos. Ahora duermo mejor.",
+      "name": "María Rodríguez",
+      "role": "Líder de equipo, Relume"
+    },
+    "t2": {
+      "quote": "La visibilidad en todos nuestros proyectos pasó del caos a la claridad total en una semana.",
+      "name": "James Carter",
+      "role": "Director PMO, Webflow"
+    }
+  },
+  "cta": {
+    "label": "Impacto",
+    "heading": "¿Listo para liderar mejores proyectos?",
+    "text": "Descubre cómo Vantage PMO transforma la manera en que tus equipos trabajan juntos.",
+    "cta1": "Demo",
+    "cta2": "Contacto"
+  },
+  "blog": {
+    "heading": "Mantente a la vanguardia",
+    "subheading": "Obtén información sobre gestión de proyectos, liderazgo y construcción de mejores equipos.",
+    "cta": "Suscribirse",
+    "post1": {
+      "category": "Liderazgo",
+      "title": "Por qué tu marco PMO te está frenando",
+      "excerpt": "La mayoría de las oficinas de proyectos se construyeron para el cumplimiento, no para la velocidad."
+    },
+    "post2": {
+      "category": "Equipos",
+      "title": "El costo real de los equipos desalineados",
+      "excerpt": "La desalineación no solo es frustrante: aparece directamente en tus plazos y presupuestos."
+    },
+    "post3": {
+      "category": "Datos",
+      "title": "Decisiones basadas en datos en la gestión de proyectos",
+      "excerpt": "Pasar de la intuición a las decisiones respaldadas por inteligencia lo cambia todo."
+    }
+  },
+  "footer": {
+    "tagline": "Información sobre gestión de proyectos, directa y constante.",
+    "col1": {
+      "title": "Producto",
+      "link1": "Inicio",
+      "link2": "Plataforma",
+      "link3": "Precios",
+      "link4": "Blog"
+    },
+    "col2": {
+      "title": "Sobre nosotros",
+      "link1": "Nuestra historia",
+      "link2": "Equipo",
+      "link3": "Carreras",
+      "link4": "Contacto"
+    },
+    "col3": {
+      "title": "Síguenos",
+      "link1": "Facebook",
+      "link2": "Instagram",
+      "link3": "Twitter",
+      "link4": "LinkedIn"
+    },
+    "copyright": "© 2025 VantagePMO. Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "cookies": "Configuración de cookies"
+  }
+}
