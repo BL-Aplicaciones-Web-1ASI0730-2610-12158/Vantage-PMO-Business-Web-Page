@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">Vantage PMO – Centralize your projects</title>
+  <meta name="description" data-i18n="meta.description"
+        content="Vantage PMO brings clarity to every project." />
+
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+  <link rel="stylesheet" href="public/styles/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       DOMINIO: nav
+       ============================================================ -->
+  <header class="nav" id="nav">
+    <div class="container">
+      <div class="nav__inner">
+
+        <a href="/" class="nav__logo" aria-label="Vantage PMO">
+          <span class="nav__logo-icon">◈</span>
+          <span>Logo</span>
+        </a>
+
+        <nav class="nav__menu" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link" data-i18n="nav.home">Home</a></li>
+            <li><a href="#" class="nav__link" data-i18n="nav.platform">Platform</a></li>
+            <li><a href="#" class="nav__link" data-i18n="nav.blog">Blog</a></li>
+            <li><a href="#" class="nav__link" data-i18n="nav.resources">Resources</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav__actions">
+          <a href="#" class="nav__login" data-i18n="nav.login">Login</a>
+          <a href="#" class="btn btn--primary" data-i18n="nav.cta">Try it</a>
+          <button class="nav__lang" id="langSwitcher" aria-label="Switch language">EN</button>
+          <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         DOMINIO: hero
+         ============================================================ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero__inner">
+
+          <div class="hero__content">
+            <h1 class="hero__heading" id="hero-heading" data-i18n="hero.heading">
+              Centralize your projects, control your future.
+            </h1>
+            <p class="hero__subheading" data-i18n="hero.subheading">
+              Vantage PMO brings clarity to every project. Real-time visibility,
+              standardized processes, and the intelligence you need to lead.
+            </p>
+            <div class="hero__actions">
+              <a href="#onboarding" class="btn btn--green" data-i18n="hero.cta_primary">Start now</a>
+              <a href="#pillars"    class="btn btn--ghost" data-i18n="hero.cta_secondary">Learn more</a>
+            </div>
+          </div>
+
+          <div class="hero__media">
+            <div class="hero__image" role="img" aria-label="Project management dashboard"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DOMINIO: pillars
+         ============================================================ -->
+    <section class="pillars" id="pillars" aria-labelledby="pillars-heading">
+      <div class="container">
+
+        <div class="pillars__header">
+          <span class="label" data-i18n="pillars.label">Context</span>
+          <h2 class="pillars__heading" id="pillars-heading" data-i18n="pillars.heading">
+            Three pillars of management
+          </h2>
+          <p class="pillars__subheading" data-i18n="pillars.subheading">
+            Everything you need to run projects well
+          </p>
+        </div>
+
+        <div class="pillars__grid">
+
+          <article class="pillar-card">
+            <div class="pillar-card__image pillar-card__image--1"
+                 role="img" aria-label="Control"></div>
+            <div class="pillar-card__body">
+              <span class="pillar-card__label" data-i18n="pillars.card1.label">Control</span>
+              <h3 class="pillar-card__title" data-i18n="pillars.card1.title">One place for all</h3>
+              <p  class="pillar-card__text"  data-i18n="pillars.card1.text">
+                Stop drifting across systems for project data.
+              </p>
+              <a href="#" class="link-arrow" data-i18n="pillars.card1.cta">Explore</a>
+            </div>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-card__image pillar-card__image--2"
+                 role="img" aria-label="Visibility"></div>
+            <div class="pillar-card__body">
+              <span class="pillar-card__label" data-i18n="pillars.card2.label">Visibility</span>
+              <h3 class="pillar-card__title" data-i18n="pillars.card2.title">See what matters now</h3>
+              <p  class="pillar-card__text"  data-i18n="pillars.card2.text">
+                Know your status in real time.
+              </p>
+              <a href="#" class="link-arrow" data-i18n="pillars.card2.cta">Explore</a>
+            </div>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-card__image pillar-card__image--3"
+                 role="img" aria-label="Clarity"></div>
+            <div class="pillar-card__body">
+              <span class="pillar-card__label" data-i18n="pillars.card3.label">Clarity</span>
+              <h3 class="pillar-card__title" data-i18n="pillars.card3.title">
+                Make decisions that move projects forward
+              </h3>
+              <p  class="pillar-card__text"  data-i18n="pillars.card3.text">
+                Stop guesses you cannot believe every day.
+              </p>
+              <a href="#" class="link-arrow" data-i18n="pillars.card3.cta">Explore</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DOMINIO: features
+         ============================================================ -->
+    <section class="features" id="features">
+      <div class="features__layout">
+
+          <!-- Número sticky izquierdo -->
+          <div class="features__sticky">
+            <div class="features__num-wrap" aria-hidden="true">
+              <span class="features__num is-active">01</span>
+              <span class="features__num">02</span>
+              <span class="features__num">03</span>
+              <span class="features__num">04</span>
+            </div>
+          </div>
+
+          <!-- Items que hacen scroll -->
+          <div class="features__items">
+
+            <div class="feature-item" data-index="0">
+              <div class="feature-item__body">
+                <span class="label" data-i18n="features.f1.label">Results</span>
+                <h2 class="feature-item__title" data-i18n="features.f1.title">
+                  What changes when you take control
+                </h2>
+                <p class="feature-item__text" data-i18n="features.f1.text">
+                  Projects move faster. Teams understand what matters. Leaders make better calls.
+                </p>
+                <div class="feature-item__links">
+                  <a href="#" class="link-arrow link-pill" data-i18n="features.f1.cta1">Discover</a>
+                  <a href="#" class="link-arrow" data-i18n="features.f1.cta2">Learn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-item" data-index="1">
+              <div class="feature-item__body">
+                <span class="label" data-i18n="features.f2.label">Aligned</span>
+                <h2 class="feature-item__title" data-i18n="features.f2.title">
+                  Projects finish on time, teams stay aligned
+                </h2>
+                <p class="feature-item__text" data-i18n="features.f2.text">
+                  Delays disappear when everyone sees the same picture. Vantage PMO cuts
+                  through the noise so your teams move together, not in circles.
+                </p>
+                <div class="feature-item__links">
+                  <a href="#" class="link-arrow" data-i18n="features.f2.cta1">Learn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-item" data-index="2">
+              <div class="feature-item__body">
+                <span class="label" data-i18n="features.f3.label">Clarity</span>
+                <h2 class="feature-item__title" data-i18n="features.f3.title">
+                  Communication that actually works
+                </h2>
+                <p class="feature-item__text" data-i18n="features.f3.text">
+                  No more waiting for status updates or hunting down information. Your teams
+                  know what's expected, and leaders know what's happening, right now.
+                </p>
+                <div class="feature-item__links">
+                  <a href="#" class="link-arrow" data-i18n="features.f3.cta1">Learn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature-item" data-index="3">
+              <div class="feature-item__body">
+                <span class="label" data-i18n="features.f4.label">Confidence</span>
+                <h2 class="feature-item__title" data-i18n="features.f4.title">
+                  Decisions built on facts, not feelings
+                </h2>
+                <p class="feature-item__text" data-i18n="features.f4.text">
+                  Raw data replaces guesswork. Your leadership team makes smarter calls,
+                  backed by the numbers, not just experience.
+                </p>
+                <div class="feature-item__links">
+                  <a href="#" class="link-arrow link-pill" data-i18n="features.f4.cta1">Explore</a>
+                  <a href="#" class="link-arrow" data-i18n="features.f4.cta2">Learn</a>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /.features__items -->
+        </div><!-- /.features__layout -->
+    </section>
+
+    <!-- ============================================================
+         DOMINIO: about
+         ============================================================ -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about__inner">
+
+          <div class="about__content">
+            <span class="label" data-i18n="about.label">Progress</span>
+            <h2 class="about__heading" id="about-heading" data-i18n="about.heading">
+              Built by engineers who understand projects
+            </h2>
+            <p class="about__text" data-i18n="about.text">
+              MEPB started as OPC, where software engineers saw the same problem everywhere:
+              Projects failed not from lack of skills, but from lack of clarity. We built
+              Vantage PMO to fix that.
+            </p>
+            <div class="about__links">
+              <a href="#" class="link-arrow" data-i18n="about.cta1">About us</a>
+              <a href="#" class="link-arrow" data-i18n="about.cta2">Learn</a>
+            </div>
+            <div class="about__logos" aria-label="Trusted by">
+              <span class="about__logo-item">⬡ Webflow</span>
+              <span class="about__logo-item">◈ Relume</span>
+              <span class="about__logo-item">⬡ Webflow</span>
+              <span class="about__logo-item">◈ Relume</span>
+            </div>
+          </div>
+
+          <div class="about__media">
+            <div class="about__image" role="img" aria-label="Team working together"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DOMINIO: onboarding
+         ============================================================ -->
+    <section class="onboarding" id="onboarding" aria-labelledby="onboarding-heading">
+      <div class="container">
+
+        <div class="onboarding__header">
+          <h2 class="onboarding__heading" id="onboarding-heading" data-i18n="onboarding.heading">
+            Getting started takes minutes, not months
+          </h2>
+          <p class="onboarding__subheading" data-i18n="onboarding.subheading">
+            Set up your workspace and bring your projects in. Vantage PMO handles the rest.
+          </p>
+        </div>
+
+        <div class="onboarding__steps">
+
+          <article class="step-card">
+            <div class="step-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
+                      stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="13,2 13,9 20,9"
+                          stroke="currentColor" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="step-card__title" data-i18n="onboarding.step1.title">
+              Connect your projects to the platform
+            </h3>
+            <p class="step-card__text" data-i18n="onboarding.step1.text">
+              Import anything. Start fresh. Onboard your teams with standardized templates.
+            </p>
+            <a href="#" class="link-arrow" data-i18n="onboarding.step1.cta">Start now</a>
+          </article>
+
+          <article class="step-card">
+            <div class="step-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                      stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="12" r="3"
+                        stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 class="step-card__title" data-i18n="onboarding.step2.title">
+              Watch your portfolio come into focus
+            </h3>
+            <p class="step-card__text" data-i18n="onboarding.step2.text">
+              See the status everywhere you need it. Projects. Todos. Plans.
+            </p>
+            <a href="#" class="link-arrow" data-i18n="onboarding.step2.cta">Start now</a>
+          </article>
+
+          <article class="step-card">
+            <div class="step-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <line x1="18" y1="20" x2="18" y2="10"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="12" y1="20" x2="12" y2="4"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="6"  y1="20" x2="6"  y2="14"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="step-card__title" data-i18n="onboarding.step3.title">
+              Lead with confidence and data
+            </h3>
+            <p class="step-card__text" data-i18n="onboarding.step3.text">
+              Make decisions backed by intelligence, not just a habit.
+            </p>
+            <a href="#" class="link-arrow" data-i18n="onboarding.step3.cta">Start now</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DOMINIO: testimonials
+         ============================================================ -->
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+
+        <div class="testimonials__header">
+          <h2 class="testimonials__heading" id="testimonials-heading"
+              data-i18n="testimonials.heading">Real voices</h2>
+          <p class="testimonials__subheading" data-i18n="testimonials.subheading">
+            What project leaders say about Vantage PMO
+          </p>
+        </div>
+
+        <div class="testimonials__grid">
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__logo">◈ Relume</div>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-card__quote" data-i18n="testimonials.t1.quote">
+              We stopped losing track of deadlines the moment we switched. Now I sleep better.
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar"
+                   role="img" aria-label="Maria Rodriguez"></div>
+              <div>
+                <strong class="testimonial-card__name"
+                        data-i18n="testimonials.t1.name">Maria Rodriguez</strong>
+                <span class="testimonial-card__role"
+                      data-i18n="testimonials.t1.role">Team Lead, Relume</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__logo">⬡ Webflow</div>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial-card__quote" data-i18n="testimonials.t2.quote">
+              Visibility across all our projects went from chaotic to crystal clear in one week.
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar testimonial-card__avatar--2"
+                   role="img" aria-label="James Carter"></div>
+              <div>
+                <strong class="testimonial-card__name"
+                        data-i18n="testimonials.t2.name">James Carter</strong>
+                <span class="testimonial-card__role"
+                      data-i18n="testimonials.t2.role">PMO Director, Webflow</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DOMINIO: cta
+         ============================================================ -->
+    <section class="cta" id="cta" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta__inner">
+
+          <div class="cta__content">
+            <span class="cta__label" data-i18n="cta.label">Impact</span>
+            <h2 class="cta__heading" id="cta-heading" data-i18n="cta.heading">
+              Ready to lead better projects?
+            </h2>
+            <p class="cta__text" data-i18n="cta.text">
+              See how Vantage PMO transforms the way your teams work together.
+            </p>
+            <div class="cta__actions">
+              <a href="#" class="btn btn--green"         data-i18n="cta.cta1">Demo</a>
+              <a href="#" class="btn btn--outline-white" data-i18n="cta.cta2">Contact</a>
+            </div>
+          </div>
+
+          <div class="cta__media">
+            <div class="cta__image" role="img" aria-label="Leader working outdoors"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DOMINIO: blog
+         ============================================================ -->
+    <section class="blog" id="blog" aria-labelledby="blog-heading">
+      <div class="container">
+
+        <div class="blog__header">
+          <div class="blog__header-text">
+            <h2 class="blog__heading" id="blog-heading" data-i18n="blog.heading">
+              Stay ahead of what's next
+            </h2>
+            <p class="blog__subheading" data-i18n="blog.subheading">
+              Get insights on project management, leadership, and building better teams.
+            </p>
+          </div>
+          <a href="#" class="btn btn--green" data-i18n="blog.cta">Subscribe</a>
+        </div>
+
+        <div class="blog__grid">
+
+          <article class="blog-card">
+            <div class="blog-card__image blog-card__image--1"
+                 role="img" aria-label="Leadership article"></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category" data-i18n="blog.post1.category">Leadership</span>
+              <h3 class="blog-card__title" data-i18n="blog.post1.title">
+                Why your PMO framework is slowing you down
+              </h3>
+              <p class="blog-card__excerpt" data-i18n="blog.post1.excerpt">
+                Most project offices were built for compliance, not speed.
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card__image blog-card__image--2"
+                 role="img" aria-label="Teams article"></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category" data-i18n="blog.post2.category">Teams</span>
+              <h3 class="blog-card__title" data-i18n="blog.post2.title">
+                The real cost of misaligned teams
+              </h3>
+              <p class="blog-card__excerpt" data-i18n="blog.post2.excerpt">
+                Misalignment isn't just frustrating — it shows up in your timelines.
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card__image blog-card__image--3"
+                 role="img" aria-label="Data article"></div>
+            <div class="blog-card__body">
+              <span class="blog-card__category" data-i18n="blog.post3.category">Data</span>
+              <h3 class="blog-card__title" data-i18n="blog.post3.title">
+                Data-driven decisions in project management
+              </h3>
+              <p class="blog-card__excerpt" data-i18n="blog.post3.excerpt">
+                Moving from gut feelings to intelligence-backed choices changes everything.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       DOMINIO: footer
+       ============================================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+
+      <div class="footer__top">
+
+        <div class="footer__brand">
+          <a href="/" class="footer__logo" aria-label="Vantage PMO">
+            <span class="nav__logo-icon">◈</span>
+            <span>Logo</span>
+          </a>
+          <p class="footer__tagline" data-i18n="footer.tagline">
+            Get insights on project management, directional and steady.
+          </p>
+        </div>
+
+        <div class="footer__cols">
+
+          <div class="footer__col">
+            <h4 class="footer__col-title" data-i18n="footer.col1.title">Product</h4>
+            <ul class="footer__list">
+              <li><a href="#" data-i18n="footer.col1.link1">Home</a></li>
+              <li><a href="#" data-i18n="footer.col1.link2">Platform</a></li>
+              <li><a href="#" data-i18n="footer.col1.link3">Pricing</a></li>
+              <li><a href="#" data-i18n="footer.col1.link4">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4 class="footer__col-title" data-i18n="footer.col2.title">About us</h4>
+            <ul class="footer__list">
+              <li><a href="#" data-i18n="footer.col2.link1">Our story</a></li>
+              <li><a href="#" data-i18n="footer.col2.link2">Team</a></li>
+              <li><a href="#" data-i18n="footer.col2.link3">Careers</a></li>
+              <li><a href="#" data-i18n="footer.col2.link4">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4 class="footer__col-title" data-i18n="footer.col3.title">Follow us</h4>
+            <ul class="footer__list">
+              <li><a href="#" data-i18n="footer.col3.link1">Facebook</a></li>
+              <li><a href="#" data-i18n="footer.col3.link2">Instagram</a></li>
+              <li><a href="#" data-i18n="footer.col3.link3">Twitter</a></li>
+              <li><a href="#" data-i18n="footer.col3.link4">LinkedIn</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright">
+          © 2025 VantagePMO. All rights reserved.
+        </p>
+        <nav class="footer__legal" aria-label="Legal">
+          <a href="#" data-i18n="footer.privacy">Privacy policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of service</a>
+          <a href="#" data-i18n="footer.cookies">Cookie settings</a>
+        </nav>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts (orden: i18n → app) -->
+  <script src="public/i18n/i18n.js"></script>
+  <script src="public/js/main.js"></script>
+
+</body>
+</html>
