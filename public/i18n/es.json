@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "Vantage PMO – Centraliza tus proyectos",
+    "description": "Vantage PMO aporta claridad a cada proyecto. Visibilidad en tiempo real, procesos estandarizados y la inteligencia que necesitas para liderar."
+  },
+  "nav": {
+    "home": "Inicio",
+    "context": "Contexto",
+    "platform": "Plataforma",
+    "testimonials": "Testimonios",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "team": "Equipo",
+    "login": "Iniciar sesión",
+    "cta": "Pruébalo"
+  },
+  "hero": {
+    "heading": "Centraliza tus proyectos, controla tu futuro.",
+    "subheading": "Vantage PMO aporta claridad a cada proyecto. Visibilidad en tiempo real, procesos estandarizados y la inteligencia que necesitas para liderar.",
+    "cta_primary": "Comenzar ahora",
+    "cta_secondary": "Saber más"
+  },
+  "pillars": {
+    "label": "Contexto",
+    "heading": "Tres pilares de la gestión",
+    "subheading": "Todo lo que necesitas para ejecutar proyectos correctamente",
+    "card1": {
+      "label": "Control",
+      "title": "Un solo lugar para todo",
+      "text": "Deja de dispersarte entre sistemas para gestionar datos de proyectos.",
+      "cta": "Explorar"
+    },
+    "card2": {
+      "label": "Visibilidad",
+      "title": "Ve lo que importa ahora",
+      "text": "Conoce el estado de tus proyectos en tiempo real.",
+      "cta": "Explorar"
+    },
+    "card3": {
+      "label": "Claridad",
+      "title": "Toma decisiones que impulsan proyectos",
+      "text": "Elimina las suposiciones que no puedes creer cada día.",
+      "cta": "Explorar"
+    }
+  },
+  "features": {
+    "f1": {
+      "label": "Resultados",
+      "title": "Qué cambia cuando tomas el control",
+      "text": "Los proyectos avanzan más rápido. Los equipos entienden lo que importa. Los líderes toman mejores decisiones.",
+      "cta1": "Descubrir",
+      "cta2": "Aprender"
+    },
+    "f2": {
+      "label": "Alineados",
+      "title": "Los proyectos terminan a tiempo, los equipos se mantienen alineados",
+      "text": "Los retrasos desaparecen cuando todos ven el mismo panorama. Vantage PMO elimina el ruido para que tus equipos avancen juntos.",
+      "cta1": "Aprender"
+    },
+    "f3": {
+      "label": "Claridad",
+      "title": "Comunicación que realmente funciona",
+      "text": "No más esperas por actualizaciones de estado. Tus equipos saben qué se espera de ellos y los líderes saben qué está pasando, ahora mismo.",
+      "cta1": "Aprender"
+    },
+    "f4": {
+      "label": "Confianza",
+      "title": "Decisiones basadas en hechos, no en intuición",
+      "text": "Los datos reales reemplazan las suposiciones. Tu equipo de liderazgo toma decisiones más inteligentes, respaldadas por números.",
+      "cta1": "Explorar",
+      "cta2": "Aprender"
+    }
+  },
+  "about": {
+    "label": "Progreso",
+    "heading": "Construido por ingenieros que entienden los proyectos",
+    "text": "MEPB comenzó como OPC, donde los ingenieros de software vieron el mismo problema en todas partes: los proyectos fallaban no por falta de habilidades, sino por falta de claridad. Construimos Vantage PMO para solucionarlo.",
+    "cta1": "Sobre nosotros",
+    "cta2": "Aprender"
+  },
+  "onboarding": {
+    "heading": "Comenzar toma minutos, no meses",
+    "subheading": "Configura tu espacio de trabajo y lleva tus proyectos. Vantage PMO se encarga del resto.",
+    "step1": {
+      "title": "Conecta tus proyectos a la plataforma",
+      "text": "Importa lo que quieras. Comienza desde cero. Integra a tus equipos con plantillas estandarizadas.",
+      "cta": "Comenzar ahora"
+    },
+    "step2": {
+      "title": "Observa cómo tu portafolio cobra claridad",
+      "text": "Ve el estado donde lo necesites. Proyectos. Tareas. Planes.",
+      "cta": "Comenzar ahora"
+    },
+    "step3": {
+      "title": "Lidera con confianza y datos",
+      "text": "Toma decisiones respaldadas por inteligencia, no solo por hábito.",
+      "cta": "Comenzar ahora"
+    }
+  },
+  "testimonials": {
+    "heading": "Voces reales",
+    "subheading": "Lo que dicen los líderes de proyectos sobre Vantage PMO",
+    "t1": {
+      "quote": "Dejamos de perder el rastro de los plazos en el momento en que cambiamos. Ahora duermo mejor.",
+      "name": "María Rodríguez",
+      "role": "Líder de equipo, Relume"
+    },
+    "t2": {
+      "quote": "La visibilidad en todos nuestros proyectos pasó del caos a la claridad total en una semana.",
+      "name": "James Carter",
+      "role": "Director PMO, Webflow"
+    }
+  },
+  "cta": {
+    "label": "Equipo",
+    "heading": "Conoce a las personas detrás de Vantage PMO",
+    "text": "Un equipo de ingenieros y líderes de proyectos apasionados por mejorar la gestión de proyectos para todos.",
+    "cta1": "Mira nuestra historia",
+    "cta2": "Conoce al equipo"
+  },
+  "blog": {
+    "heading": "Mantente a la vanguardia",
+    "subheading": "Obtén información sobre gestión de proyectos, liderazgo y construcción de mejores equipos.",
+    "cta": "Suscribirse",
+    "post1": {
+      "category": "Liderazgo",
+      "title": "Por qué tu marco PMO te está frenando",
+      "excerpt": "La mayoría de las oficinas de proyectos se construyeron para el cumplimiento, no para la velocidad."
+    },
+    "post2": {
+      "category": "Equipos",
+      "title": "El costo real de los equipos desalineados",
+      "excerpt": "La desalineación no solo es frustrante: aparece directamente en tus plazos y presupuestos."
+    },
+    "post3": {
+      "category": "Datos",
+      "title": "Decisiones basadas en datos en la gestión de proyectos",
+      "excerpt": "Pasar de la intuición a las decisiones respaldadas por inteligencia lo cambia todo."
+    }
+  },
+  "footer": {
+    "tagline": "Información sobre gestión de proyectos, directa y constante.",
+    "col1": {
+      "title": "Producto",
+      "link1": "Inicio",
+      "link2": "Plataforma",
+      "link3": "Precios",
+      "link4": "Blog"
+    },
+    "col2": {
+      "title": "Sobre nosotros",
+      "link1": "Nuestra historia",
+      "link2": "Equipo",
+      "link3": "Carreras",
+      "link4": "Contacto"
+    },
+    "col3": {
+      "title": "Síguenos",
+      "link1": "Facebook",
+      "link2": "Instagram",
+      "link3": "Twitter",
+      "link4": "LinkedIn"
+    },
+    "copyright": "© 2026 VantagePMO. Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "cookies": "Configuración de cookies"
+  },
+  "products": {
+    "label": "Plataforma",
+    "heading": "Una plataforma, cada necesidad",
+    "subheading": "Cada módulo resuelve un desafío específico, y juntos impulsan operaciones de proyectos sin fricciones.",
+    "card1": {
+      "tag": "Vantage PMO · Proyectos",
+      "heading": "Planificación, ejecución y entrega impulsadas por IA",
+      "text": "Lleva proyectos y procesos hacia adelante a escala, con inteligencia que ejecuta, construye y automatiza por ti.",
+      "cta": "Comenzar"
+    },
+    "card2": {
+      "tag": "Vantage PMO · Portafolio",
+      "heading": "Visibilidad de portafolio que te da control",
+      "text": "Ve todos tus proyectos a la vez. Rastrea salud, riesgo y progreso desde un único centro de mando.",
+      "cta": "Comenzar"
+    },
+    "card3": {
+      "tag": "Vantage PMO · Analítica",
+      "heading": "Decisiones basadas en datos que generan resultados",
+      "text": "Convierte datos crudos de proyectos en inteligencia para el liderazgo. Mejor pronóstico, acción más rápida.",
+      "cta": "Comenzar"
+    },
+    "card4": {
+      "tag": "Vantage PMO · Automatización",
+      "heading": "Automatiza el trabajo que nadie quiere hacer",
+      "text": "Desde recordatorios hasta reportes, deja que la automatización inteligente maneje las tareas repetitivas para que tu equipo se enfoque en lo que importa.",
+      "cta": "Comenzar"
+    },
+    "card5": {
+      "tag": "Vantage PMO · Recursos",
+      "heading": "Las personas correctas en los proyectos correctos",
+      "text": "Controla la capacidad, asigna recursos inteligentemente y previene el agotamiento antes de que ocurra.",
+      "cta": "Comenzar"
+    },
+    "card6": {
+      "tag": "Vantage PMO · Reportes",
+      "heading": "Reportes que realmente se leen",
+      "text": "Reportes auto-generados para stakeholders con las métricas que importan, entregados según tu calendario.",
+      "cta": "Comenzar"
+    },
+    "card7": {
+      "tag": "Vantage PMO · Integraciones",
+      "heading": "Conecta cada herramienta que tu equipo ya usa",
+      "text": "Integraciones nativas con Jira, Slack, Teams y más de 40 herramientas. Una sola fuente de verdad, cero fricción.",
+      "cta": "Comenzar"
+    }
+  },
+  "ai": {
+    "label": "Inteligencia",
+    "heading": "Tu asistente inteligente de proyectos",
+    "subheading": "Pregunta lo que quieras. Obtén respuestas respaldadas por tus datos reales de proyectos.",
+    "prompt1": "Crear un plan de proyecto",
+    "prompt2": "Resumir el estado del proyecto",
+    "prompt3": "Identificar tareas en riesgo",
+    "prompt4": "Generar un reporte para stakeholders",
+    "prompt5": "Pronosticar fecha de entrega",
+    "input": "Pregunta a Vantage AI..."
+  },
+  "team": {
+    "label": "Equipo",
+    "heading": "Conoce al equipo detrás de Vantage PMO",
+    "subheading": "Somos un equipo de ingenieros apasionados por resolver los desafíos de la gestión de proyectos. Nuestra misión es construir herramientas que hagan que los proyectos sean más claros, rápidos y exitosos para todos.",
+    "member1": {
+      "name": "Alvaro Rocha",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador backend con una pasión por construir sistemas escalables y eficientes."
+    },
+    "member2": {
+      "name": "Diego Esqcuicha",
+      "role": "Ingeniero de Software",
+      "bio":"Diseñador apasionado por crear experiencias de usuario intuitivas y atractivas."
+    },
+    "member3": {
+      "name": "César Quispe",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador frontend que tiene experiencia diseñando de diagramas de arquitectura."
+      
+    },
+    "member4": {
+      "name": "Mike Guillen",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador full-stack que soluciona problemas y diseña interfaces intuitivas."
+    },
+    "member5": {
+      "name": "Mauricio Teran",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador backend experto en construir sistemas robustos y escalables."
+    }
+  }
+}
