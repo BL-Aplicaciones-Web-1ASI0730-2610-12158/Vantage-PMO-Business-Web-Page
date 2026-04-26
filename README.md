@@ -1,139 +1,112 @@
-# Sitio Web de Vantage PMO
+# Vantage PMO – Sitio Web
 
-## Descripción General
+Landing page estática de **Vantage PMO**, una plataforma de gestión de proyectos (PMO) que centraliza datos, proporciona visibilidad en tiempo real y permite decisiones basadas en datos.
 
-Vantage PMO es una plataforma de oficina de gestión de proyectos (PMO) diseñada para centralizar datos de proyectos, proporcionar visibilidad en tiempo real y permitir la toma de decisiones basada en datos para líderes de proyectos. Este repositorio contiene el sitio web estático de landing page para Vantage PMO, construido con tecnologías web modernas para mostrar las características clave y beneficios de la plataforma.
+Desplegado en **GitHub Pages** · Soporte **EN / ES** · Sin dependencias externas
 
-El sitio web es una aplicación de página única (SPA) con soporte de internacionalización para inglés y español, diseño responsivo y animaciones de desplazamiento suave.
+---
 
 ## Características
 
-- **Diseño Responsivo**: Optimizado para escritorio, tablet y dispositivos móviles usando CSS Grid y Flexbox.
-- **Internacionalización (i18n)**: Soporte para idiomas inglés y español con detección automática de idioma y persistencia en almacenamiento local.
-- **Desplazamiento Suave**: Implementación nativa de JavaScript para navegación de enlaces ancla.
-- **Animaciones de Desplazamiento**: Animaciones basadas en Intersection Observer para secciones de contenido.
-- **Navegación Interactiva**: Menú hamburguesa amigable para móviles con características de accesibilidad.
-- **Contador de Características Fijas**: Sistema de numeración dinámica que se actualiza basado en la posición de desplazamiento en la sección de características.
+- **Internacionalización (i18n)** — Inglés y Español con detección automática y persistencia en `localStorage`
+- **Carrusel de productos** — Bucle infinito con scroll-snap, navegación por botones y dots
+- **Reproductor de video inline** — Miniatura de YouTube con autoplay al hacer clic (sección "About the Team")
+- **Secciones animadas** — Intersection Observer para fade-in en scroll
+- **Diseño responsivo** — CSS Grid + Flexbox, adaptado a móvil, tablet y escritorio
+- **Navegación móvil** — Menú hamburguesa con soporte ARIA
+- **Imágenes externas** — Unsplash CDN para productos (sin archivos locales requeridos)
 
-## Tecnologías Utilizadas
-
-| Tecnología | Propósito | Versión |
-|------------|-----------|---------|
-| HTML5 | Marcado semántico y estructura | - |
-| CSS3 | Estilos, diseño y animaciones | - |
-| JavaScript (ES5+) | Interactividad y manipulación del DOM | - |
-| Google Fonts (Sora, Inter) | Tipografía | - |
-| Local Storage API | Persistencia de preferencias de idioma | - |
-| Intersection Observer API | Animaciones basadas en desplazamiento | - |
+---
 
 ## Estructura del Proyecto
 
 ```
 /
-├── index.html                 # Archivo HTML principal
-├── README.md                  # Documentación del proyecto
+├── index.html                    # Documento principal (SPA)
+├── README.md
 └── public/
     ├── assets/
     │   └── images/
-    │       ├── hero/          # Imágenes de la sección hero
-    │       └── pillars/       # Imágenes de la sección pillars
+    │       ├── about/            # about.png
+    │       ├── blog/             # data.jpeg · leadership.png · teams.jpeg
+    │       ├── cta/              # lead.jpeg
+    │       ├── hero/             # hero.png
+    │       ├── logo/             # light-logo.png · dark-logo.png
+    │       ├── pillars/          # pillar-01.png · pillar-02.png · pillar-03.png
+    │       ├── team/             # alvaro.png · diego.jpeg · cesar.jpeg · dylan.jpeg · mauricio.jpeg
+    │       └── testimonials/     # testimonial-1.png · testimonial-2.jpeg
     ├── i18n/
-    │   ├── en.json            # Traducciones en inglés
-    │   ├── es.json            # Traducciones en español
-    │   └── i18n.js            # Módulo de internacionalización
+    │   ├── en.json               # Traducciones en inglés
+    │   └── es.json               # Traducciones en español
     ├── js/
-    │   ├── main.js            # Lógica principal de la aplicación
-    │   └── nav.js             # Funcionalidad específica de navegación
+    │   ├── i18n.js               # Módulo i18n (fetch + DOM update)
+    │   ├── main.js               # Lógica principal (carrusel, animaciones, video, etc.)
+    │   └── nav.js                # Menú de navegación móvil
     └── styles/
-        └── style.css          # Hoja de estilos unificada
+        └── style.css             # Hoja de estilos unificada (tokens CSS + BEM)
 ```
 
-## Descripciones de Archivos
+---
 
-### Archivos Principales
+## Secciones del sitio
 
-- **`index.html`**: El documento HTML principal que contiene toda la estructura del sitio web. Utiliza elementos HTML5 semánticos y atributos de datos para internacionalización.
+| Sección | ID | Descripción |
+|---------|----|-------------|
+| Nav | `#nav` | Barra de navegación con cambio de idioma |
+| Hero | `#hero` | Encabezado principal con imagen |
+| Pillars | `#pillars` | 3 pilares de gestión (Control, Visibilidad, Claridad) |
+| Products | `#products` | Carrusel de 7 módulos de la plataforma |
+| Features | `#features` | Características con scroll animado |
+| AI | `#ai` | Sección de inteligencia artificial |
+| About | `#about` | Historia del equipo |
+| Onboarding | `#onboarding` | Pasos para comenzar |
+| Testimonials | `#testimonials` | Testimonios de clientes |
+| CTA | `#cta` | "Meet the team" con reproductor YouTube inline |
+| Blog | `#blog` | 3 artículos con imágenes reales |
+| Team | `#team` | Tarjetas del equipo de desarrollo |
+| Footer | — | Links, redes sociales y copyright |
 
-- **`public/styles/style.css`**: Hoja de estilos completa con propiedades personalizadas CSS (tokens de diseño) para temas consistentes. Organizada por secciones de componentes.
+---
 
-### Módulos JavaScript
+## Tecnologías
 
-- **`public/js/main.js`**: Archivo JavaScript principal que maneja la inicialización de la aplicación, navegación, desplazamiento suave, animaciones de características y revelaciones de contenido basadas en desplazamiento.
+| Tecnología | Uso |
+|------------|-----|
+| HTML5 semántico | Estructura y accesibilidad (ARIA) |
+| CSS3 (Grid, Flexbox, Custom Properties) | Layout, temas, animaciones |
+| JavaScript ES5+ (vanilla) | Interactividad sin frameworks |
+| Google Fonts (Sora, Inter) | Tipografía |
+| Unsplash CDN | Imágenes de productos |
+| YouTube Embed API | Reproductor inline en sección CTA |
+| Fetch API | Carga de traducciones JSON |
+| Intersection Observer API | Animaciones en scroll |
+| localStorage | Persistencia del idioma |
 
-- **`public/js/nav.js`**: Módulo dedicado a la funcionalidad del menú de navegación, incluyendo comportamiento de alternancia móvil.
+---
 
-- **`public/i18n/i18n.js`**: Sistema de internacionalización que gestiona el cambio de idioma, carga de traducciones y actualizaciones del DOM.
+## i18n — Internacionalización
 
-### Archivos de Traducción
+Las traducciones se cargan desde `public/i18n/{lang}.json` mediante `fetch()`. La URL se construye dinámicamente en base a la ubicación del script, lo que garantiza compatibilidad con GitHub Pages en cualquier subdirectorio.
 
-- **`public/i18n/en.json`**: Traducciones en inglés para todo el texto de la interfaz de usuario.
-- **`public/i18n/es.json`**: Traducciones en español para todo el texto de la interfaz de usuario.
+Para cambiar el idioma en código:
 
-### Recursos
-
-- **`public/assets/images/`**: Directorio que contiene imágenes estáticas utilizadas en todo el sitio web.
-
-## Soporte de Navegadores
-
-- Chrome 58+
-- Firefox 55+
-- Safari 11+
-- Edge 79+
-
-Navegadores modernos con soporte para:
-- JavaScript ES5+
-- CSS Grid y Flexbox
-- Intersection Observer API
-- Fetch API
-
-## Guías de Desarrollo
-
-### Estilo de Código
-
-- **HTML**: Marcado semántico y accesible con atributos ARIA apropiados.
-- **CSS**: Convención de nomenclatura tipo BEM, propiedades personalizadas CSS para temas.
-- **JavaScript**: Patrón IIFE para encapsulación de módulos, modo estricto habilitado.
-
-### Agregar Nuevo Contenido
-
-1. Actualice las traducciones en ambos archivos `en.json` y `es.json`.
-2. Agregue HTML correspondiente con atributos `data-i18n`.
-3. Actualice CSS si se agregan nuevos componentes.
-4. Pruebe la responsividad en múltiples dispositivos.
-
-### Internacionalización
+```js
+window.i18n.setLanguage('es'); // o 'en'
+```
 
 Para agregar un nuevo idioma:
-1. Cree un nuevo archivo JSON en `public/i18n/` (ej. `fr.json`).
-2. Agregue el código de idioma a `SUPPORTED_LANGS` en `i18n.js`.
-3. Actualice la lógica del conmutador de idioma si es necesario.
+1. Crear `public/i18n/fr.json` con las mismas claves
+2. Agregar `'fr'` al array `SUPPORTED_LANGS` en `i18n.js`
 
-## Consideraciones de Rendimiento
+---
 
-- **Carga Diferida**: Las imágenes no se cargan de forma diferida; considere implementar para producción.
-- **Tamaño del Paquete**: Todo JavaScript se sirve como archivos separados; considere empaquetar para producción.
-- **Carga de Fuentes**: Las fuentes de Google se cargan vía `<link>`; considere autoalojar para mejor rendimiento.
+## Soporte de navegadores
 
-## Accesibilidad
+- Chrome 80+ · Firefox 75+ · Safari 13+ · Edge 80+
+- Requiere: CSS Grid, Fetch API, Intersection Observer, scroll-snap
 
-- Estructura HTML semántica
-- Etiquetas y roles ARIA
-- Soporte de navegación por teclado
-- Cumplimiento de contraste de color
-- Amigable para lectores de pantalla
+---
 
 ## Licencia
 
 © 2026 Vantage PMO. Todos los derechos reservados.
-
-## Contribución
-
-1. Bifurque el repositorio
-2. Cree una rama de característica
-3. Realice cambios siguiendo los patrones establecidos
-4. Pruebe en múltiples navegadores y dispositivos
-5. Envíe una solicitud de extracción
-
-## Contacto
-
-Para preguntas o soporte, contacte al equipo de desarrollo.
