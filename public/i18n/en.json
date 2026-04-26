@@ -227,28 +227,28 @@
     "subheading": "We are a team of engineers passionate about solving project management challenges. Our mission is to build tools that make projects clearer, faster, and more successful for everyone.",
     "member1": {
       "name": "Alvaro Rocha",
-      "role": "Ingeniero de Software",
+      "role": "Software Engineer",
       "bio":"Backend developer with a passion for building scalable and efficient systems."
     },
     "member2": {
       "name": "Diego Esqcuicha",
-      "role": "Ingeniero de Software",
+      "role": "Software Engineer",
       "bio":"Designer passionate about creating intuitive and engaging user experiences."
     },
     "member3": {
       "name": "César Quispe",
-      "role": "Ingeniero de Software",
+      "role": "Software Engineer",
       "bio":"Frontend developer with experience designing architecture diagrams."
       
     },
     "member4": {
       "name": "Mike Guillen",
-      "role": "Ingeniero de Software",
+      "role": "Software Engineer",
       "bio":"Full-stack developer who solves problems and designs intuitive interfaces."
     },
     "member5": {
       "name": "Mauricio Teran",
-      "role": "Ingeniero de Software",
+      "role": "Software Engineer",
       "bio":"Expert backend developer in building robust and scalable systems."
     }
   }
