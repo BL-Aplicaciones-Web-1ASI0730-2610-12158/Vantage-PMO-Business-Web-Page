@@ -14,6 +14,12 @@ const DEFAULT_LANG = 'en';
 const SUPPORTED_LANGS = ['en', 'es'];
 const STORAGE_KEY = 'vantage-pmo-lang';
 
+// Capturar base al momento del parseo (document.currentScript es null dentro de funciones)
+var _scriptBase = (function () {
+  var s = document.currentScript;
+  return s ? s.src.replace(/\/js\/[^/]+$/, '') : '';
+}());
+
 let currentLang = DEFAULT_LANG;
 
 /**
@@ -55,7 +61,7 @@ function applyTranslations(translations) {
  * @private
  */
 function loadTranslations(lang) {
-  return fetch('public/i18n/' + lang + '.json')
+  return fetch(_scriptBase + '/i18n/' + lang + '.json')
     .then(function (res) {
       if (!res.ok) throw new Error('No se pudo cargar: ' + lang);
       return res.json();

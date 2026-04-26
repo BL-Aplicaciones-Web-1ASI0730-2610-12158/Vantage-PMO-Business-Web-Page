@@ -373,6 +373,32 @@ function init() {
   initProductsCarousel();
   initAiRotator();
   initTeamReveal();
+  initCtaVideo();
 }
 
-document.addEventListener('DOMContentLoaded', init);
+function initCtaVideo() {
+  var container = document.getElementById('ctaVideo');
+  if (!container) return;
+
+  function playVideo() {
+    var iframe = document.createElement('iframe');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/AAW0Q0yK7fY?autoplay=1&rel=0&enablejsapi=1');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('title', 'Watch our story – Vantage PMO');
+
+    while (container.firstChild) container.removeChild(container.firstChild);
+    container.appendChild(iframe);
+  }
+
+  container.addEventListener('click', playVideo);
+}
+
+// Esperar a que todas las imágenes carguen antes de inicializar
+if (document.readyState === 'complete') {
+  init();
+} else {
+  window.addEventListener('load', init);
+}
+
+

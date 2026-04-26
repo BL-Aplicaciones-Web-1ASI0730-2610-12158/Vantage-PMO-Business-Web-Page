@@ -24,7 +24,7 @@
     <div class="container">
       <div class="nav__inner">
 
-        <a href="/" class="nav__logo" aria-label="Vantage PMO">
+        <a href="#hero" class="nav__logo" aria-label="Vantage PMO">
           <img src="public/assets/images/logo/light-logo.png" alt="Vantage PMO" class="nav__logo-img" />
         </a>
 
@@ -180,7 +180,9 @@
               </p>
               <a href="#" class="btn btn--dark" data-i18n="products.card1.cta">Get started</a>
             </div>
-            <div class="product-card__visual" aria-hidden="true"></div>
+            <div class="product-card__visual" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80" alt="" />
+            </div>
           </article>
 
           <article class="product-card product-card--purple">
@@ -194,7 +196,9 @@
               </p>
               <a href="#" class="btn btn--dark" data-i18n="products.card2.cta">Get started</a>
             </div>
-            <div class="product-card__visual" aria-hidden="true"></div>
+            <div class="product-card__visual" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="" />
+            </div>
           </article>
 
           <article class="product-card product-card--cyan">
@@ -208,7 +212,9 @@
               </p>
               <a href="#" class="btn btn--dark" data-i18n="products.card3.cta">Get started</a>
             </div>
-            <div class="product-card__visual" aria-hidden="true"></div>
+            <div class="product-card__visual" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="" />
+            </div>
           </article>
 
           <article class="product-card product-card--amber">
@@ -222,7 +228,9 @@
               </p>
               <a href="#" class="btn btn--dark" data-i18n="products.card4.cta">Get started</a>
             </div>
-            <div class="product-card__visual" aria-hidden="true"></div>
+            <div class="product-card__visual" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80" alt="" />
+            </div>
           </article>
 
           <article class="product-card product-card--rose">
@@ -236,7 +244,9 @@
               </p>
               <a href="#" class="btn btn--dark" data-i18n="products.card5.cta">Get started</a>
             </div>
-            <div class="product-card__visual" aria-hidden="true"></div>
+            <div class="product-card__visual" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" alt="" />
+            </div>
           </article>
 
           <article class="product-card product-card--slate">
@@ -250,7 +260,9 @@
               </p>
               <a href="#" class="btn btn--dark" data-i18n="products.card6.cta">Get started</a>
             </div>
-            <div class="product-card__visual" aria-hidden="true"></div>
+            <div class="product-card__visual" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=600&q=80" alt="" />
+            </div>
           </article>
 
           <article class="product-card product-card--indigo">
@@ -264,7 +276,9 @@
               </p>
               <a href="#" class="btn btn--dark" data-i18n="products.card7.cta">Get started</a>
             </div>
-            <div class="product-card__visual" aria-hidden="true"></div>
+            <div class="product-card__visual" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80" alt="" />
+            </div>
           </article>
 
         </div>
@@ -785,21 +799,33 @@
         <div class="cta__inner">
 
           <div class="cta__content">
-            <span class="cta__label" data-i18n="cta.label">Impact</span>
+            <span class="cta__label" data-i18n="cta.label">Team</span>
             <h2 class="cta__heading" id="cta-heading" data-i18n="cta.heading">
-              Ready to lead better projects?
+              Meet the people behind Vantage PMO
             </h2>
             <p class="cta__text" data-i18n="cta.text">
-              See how Vantage PMO transforms the way your teams work together.
+              A team of engineers and project leaders passionate about making project management work better for everyone.
             </p>
             <div class="cta__actions">
-              <a href="#" class="btn btn--green"         data-i18n="cta.cta1">Demo</a>
-              <a href="#" class="btn btn--outline-white" data-i18n="cta.cta2">Contact</a>
+              <a href="https://www.youtube.com/watch?v=AAW0Q0yK7fY" class="btn btn--green" target="_blank" rel="noopener noreferrer" data-i18n="cta.cta1">Watch our story</a>
+              <a href="#team" class="btn btn--outline-white" data-i18n="cta.cta2">Meet the team</a>
             </div>
           </div>
 
           <div class="cta__media">
-            <div class="cta__image" role="img" aria-label="Leader working outdoors"></div>
+            <div class="cta__video" id="ctaVideo">
+              <img
+                class="cta__video-thumb"
+                src="https://img.youtube.com/vi/AAW0Q0yK7fY/maxresdefault.jpg"
+                alt="Watch our story"
+              />
+              <button class="cta__play-btn" aria-label="Play video">
+                <svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="36" cy="36" r="36" fill="rgba(0,0,0,0.55)"/>
+                  <polygon points="28,20 56,36 28,52" fill="#fff"/>
+                </svg>
+              </button>
+            </div>
           </div>
 
         </div>
@@ -827,8 +853,7 @@
         <div class="blog__grid">
 
           <article class="blog-card">
-            <div class="blog-card__image blog-card__image--1"
-                 role="img" aria-label="Leadership article"></div>
+            <img class="blog-card__image" src="public/assets/images/blog/leadership.png" alt="Leadership article" />
             <div class="blog-card__body">
               <span class="blog-card__category" data-i18n="blog.post1.category">Leadership</span>
               <h3 class="blog-card__title" data-i18n="blog.post1.title">
@@ -841,8 +866,7 @@
           </article>
 
           <article class="blog-card">
-            <div class="blog-card__image blog-card__image--2"
-                 role="img" aria-label="Teams article"></div>
+            <img class="blog-card__image" src="public/assets/images/blog/teams.jpeg" alt="Teams article" />
             <div class="blog-card__body">
               <span class="blog-card__category" data-i18n="blog.post2.category">Teams</span>
               <h3 class="blog-card__title" data-i18n="blog.post2.title">
@@ -855,8 +879,7 @@
           </article>
 
           <article class="blog-card">
-            <div class="blog-card__image blog-card__image--3"
-                 role="img" aria-label="Data article"></div>
+            <img class="blog-card__image" src="public/assets/images/blog/data.jpeg" alt="Data article" />
             <div class="blog-card__body">
               <span class="blog-card__category" data-i18n="blog.post3.category">Data</span>
               <h3 class="blog-card__title" data-i18n="blog.post3.title">
@@ -1013,7 +1036,7 @@
 
       <div class="footer__bottom">
         <p class="footer__copyright" data-i18n="footer.copyright">
-          © 2025 VantagePMO. All rights reserved.
+          © 2026 VantagePMO. All rights reserved.
         </p>
         <nav class="footer__legal" aria-label="Legal">
           <a href="#" data-i18n="footer.privacy">Privacy policy</a>

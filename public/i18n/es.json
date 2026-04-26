@@ -112,11 +112,11 @@
     }
   },
   "cta": {
-    "label": "Impacto",
-    "heading": "¿Listo para liderar mejores proyectos?",
-    "text": "Descubre cómo Vantage PMO transforma la manera en que tus equipos trabajan juntos.",
-    "cta1": "Demo",
-    "cta2": "Contacto"
+    "label": "Equipo",
+    "heading": "Conoce a las personas detrás de Vantage PMO",
+    "text": "Un equipo de ingenieros y líderes de proyectos apasionados por mejorar la gestión de proyectos para todos.",
+    "cta1": "Mira nuestra historia",
+    "cta2": "Conoce al equipo"
   },
   "blog": {
     "heading": "Mantente a la vanguardia",
