@@ -5,8 +5,10 @@
   },
   "nav": {
     "home": "Home",
+    "context": "Context",
     "platform": "Platform",
     "blog": "Blog",
+    "team": "Team",
     "resources": "Resources",
     "login": "Login",
     "cta": "Try it"

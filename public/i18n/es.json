@@ -5,9 +5,11 @@
   },
   "nav": {
     "home": "Inicio",
+    "context": "Contexto",
     "platform": "Plataforma",
     "blog": "Blog",
     "resources": "Recursos",
+    "team": "Equipo",
     "login": "Iniciar sesión",
     "cta": "Pruébalo"
   },
