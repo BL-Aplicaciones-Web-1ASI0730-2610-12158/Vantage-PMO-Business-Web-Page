@@ -799,6 +799,48 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 
 /* -----------------------------------------------------------------
+   DOMINIO: team
+   ----------------------------------------------------------------- */
+.team { padding: var(--sp-12) 0 var(--sp-20); }
+.team__header { text-align: center; max-width: 760px; margin: 0 auto var(--sp-8); }
+.team__heading { font-size: var(--fs-4xl); margin-bottom: var(--sp-3); }
+.team__subheading { color: var(--color-gray-500); font-size: var(--fs-sm); }
+
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-6);
+  align-items: start;
+}
+
+.team-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-6);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.team-card__head { display: flex; flex-direction: column; align-items: center; gap: var(--sp-3); }
+.team-card__avatar { width: 64px; height: 64px; border-radius: var(--radius-full); overflow: hidden; }
+.team-card__avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.team-card__name { display: block; font-size: var(--fs-base); font-weight: 700; color: var(--color-dark); }
+
+.team-card__details { max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.45s var(--transition-slow), opacity 0.35s ease; }
+.team-card__role { display: block; font-size: var(--fs-sm); color: var(--color-gray-500); margin-top: var(--sp-3); }
+.team-card__bio { font-size: var(--fs-sm); color: var(--color-gray-500); margin-top: var(--sp-2); }
+
+/* Cuando la sección está activa, despliega detalles */
+.team.is-active .team-card__details { max-height: 240px; opacity: 1; }
+
+@media (max-width: 900px) {
+  .team__grid { grid-template-columns: 1fr; max-width: 540px; margin: 0 auto; }
+}
+
+
+/* -----------------------------------------------------------------
    DOMINIO: ai-section
    ----------------------------------------------------------------- */
 .ai-section { padding: var(--sp-20) 0; background: var(--color-gray-50); }

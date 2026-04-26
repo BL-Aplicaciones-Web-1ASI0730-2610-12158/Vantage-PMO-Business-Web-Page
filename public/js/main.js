@@ -343,6 +343,28 @@ function initAiRotator() {
   startAuto();
 }
 
+/**
+ * Initializes team reveal behavior: when the `#team` section
+ * enters the viewport, reveal every member's details.
+ */
+function initTeamReveal() {
+  if (!('IntersectionObserver' in window)) return;
+  var team = document.getElementById('team');
+  if (!team) return;
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        team.classList.add('is-active');
+      } else {
+        team.classList.remove('is-active');
+      }
+    });
+  }, { threshold: 0.18 });
+
+  observer.observe(team);
+}
+
 function init() {
   initNav();
   initSmoothScroll();
@@ -350,6 +372,7 @@ function init() {
   initScrollAnimations();
   initProductsCarousel();
   initAiRotator();
+  initTeamReveal();
 }
 
 document.addEventListener('DOMContentLoaded', init);

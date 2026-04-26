@@ -220,5 +220,36 @@
     "prompt4": "Generar un reporte para stakeholders",
     "prompt5": "Pronosticar fecha de entrega",
     "input": "Pregunta a Vantage AI..."
+  },
+  "team": {
+    "label": "Equipo",
+    "heading": "Conoce a los ingenieros detrás de Vantage PMO",
+    "subheading": "Somos un equipo de ingenieros apasionados por resolver los desafíos de la gestión de proyectos. Nuestra misión es construir herramientas que hagan que los proyectos sean más claros, rápidos y exitosos para todos.",
+    "member1": {
+      "name": "Alvaro Rocha",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador backend con una pasión por construir sistemas escalables y eficientes."
+    },
+    "member2": {
+      "name": "Diego Esqcuicha",
+      "role": "Ingeniero de Software",
+      "bio":"Diseñador apasionado por crear experiencias de usuario intuitivas y atractivas."
+    },
+    "member3": {
+      "name": "César Quispe",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador frontend que tiene experiencia diseñando de diagramas de arquitectura."
+      
+    },
+    "member4": {
+      "name": "Mike Guillen",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador full-stack que soluciona problemas y diseña interfaces intuitivas."
+    },
+    "member5": {
+      "name": "Mauricio Teran",
+      "role": "Ingeniero de Software",
+      "bio":"Desarrollador backend experto en construir sistemas robustos y escalables."
+    }
   }
 }
