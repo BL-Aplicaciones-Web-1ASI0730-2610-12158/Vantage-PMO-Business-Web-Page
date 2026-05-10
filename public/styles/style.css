@@ -398,20 +398,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .pillars__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--sp-6);
-  transition: grid-template-columns 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: stretch;
 }
 
-/* La card activa ocupa más espacio, las otras se comprimen */
-.pillars__grid:has(.pillar-card:nth-child(1):hover) { grid-template-columns: 1.7fr 0.65fr 0.65fr; }
-.pillars__grid:has(.pillar-card:nth-child(2):hover) { grid-template-columns: 0.65fr 1.7fr 0.65fr; }
-.pillars__grid:has(.pillar-card:nth-child(3):hover) { grid-template-columns: 0.65fr 0.65fr 1.7fr; }
-
-/* Cards no activas se atenúan */
+/* Cards no activas se atenúan ligeramente cuando hay hover */
 .pillars__grid:has(.pillar-card:hover) .pillar-card:not(:hover) {
-  opacity: 0.5;
-  transition: opacity 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0.8;
+  transition: opacity 0.35s ease;
 }
 
 .pillar-card {
@@ -423,11 +418,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex-wrap: wrap;
   align-items: stretch;
   box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.55s cubic-bezier(0.4, 0, 0.2, 1),
-              opacity    0.55s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: opacity;
+  transition: box-shadow 0.35s ease, opacity 0.35s ease, transform 0.35s ease;
+  will-change: transform, opacity;
+  transform: translateZ(0);
 }
-.pillar-card:hover { box-shadow: var(--shadow-lg); }
+.pillar-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-8px); z-index: 1; }
 
 .pillar-card__image {
   width: 100%;
@@ -435,18 +430,17 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex-shrink: 0;
   overflow: hidden;
   position: relative;
-  transition: width 0.55s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: width;
+  transition: transform 0.35s ease;
 }
 .pillar-card__image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.35s ease;
 }
-.pillar-card:hover .pillar-card__image {
-  width: 42%;
-  aspect-ratio: unset;
+.pillar-card:hover .pillar-card__image img {
+  transform: scale(1.04);
 }
 
 .pillar-card__body {
