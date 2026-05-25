@@ -366,6 +366,36 @@ function initTeamReveal() {
   observer.observe(team);
 }
 
+/**
+ * Initializes the theme switcher (Dark/Light mode) with text labels.
+ * Handles system preferences, button text updates, and local storage persistence.
+ */
+function initTheme() {
+  var switcher = document.getElementById('themeSwitcher');
+  var textEl   = document.getElementById('themeText');
+  if (!switcher && !textEl) return;
+
+  var savedTheme = localStorage.getItem('vantage-pmo-theme');
+  var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  var currentTheme = savedTheme || (systemDark ? 'dark' : 'light');
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('vantage-pmo-theme', theme);
+    if (textEl) {
+      // El texto muestra la acción opuesta al tema actual
+      textEl.textContent = theme === 'dark' ? 'LIGHT' : 'DARK';
+    }
+  }
+
+  applyTheme(currentTheme);
+
+  switcher.addEventListener('click', function() {
+    var newTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(newTheme);
+  });
+}
+
 function init() {
   initNav();
   initSmoothScroll();
@@ -375,6 +405,7 @@ function init() {
   initAiRotator();
   initTeamReveal();
   initCtaVideo();
+  initTheme();
 }
 
 function initCtaVideo() {
@@ -401,5 +432,3 @@ if (document.readyState === 'complete') {
 } else {
   window.addEventListener('load', init);
 }
-
-
