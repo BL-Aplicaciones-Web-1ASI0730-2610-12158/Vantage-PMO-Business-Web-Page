@@ -1396,7 +1396,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--sp-6);
-  align-items: start;
+  align-items: stretch;
 }
 
 .pricing-card {
@@ -1410,6 +1410,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   transition: all var(--transition-slow);
   box-shadow: var(--shadow-sm);
+  height: 100%;
 }
 
 .pricing-card:hover {
