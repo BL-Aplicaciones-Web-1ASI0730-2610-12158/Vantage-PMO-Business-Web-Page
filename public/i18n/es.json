@@ -104,6 +104,7 @@
     "basic": {
       "name": "BÁSICO",
       "price": "19",
+      "period": "/mes",
       "description": "Ideal para casas pequeñas que desean comenzar a automatizar su espacio.",
       "features": [
         "Hasta 8 dispositivos",
@@ -121,6 +122,7 @@
     "business": {
       "name": "NEGOCIO",
       "price": "29",
+      "period": "/mes",
       "badge": "MÁS POPULAR",
       "description": "Para hogares y oficinas que desean control total de sus dispositivos y monitoreo en tiempo real.",
       "features": [
@@ -135,6 +137,8 @@
     },
     "enterprise": {
       "name": "EMPRESARIAL",
+      "price": "39",
+      "period": "/mes",
       "description": "Para empresas, edificios y proyectos a gran escala.",
       "features": [
         "Dispositivos ilimitados",

@@ -125,6 +125,60 @@ const INLINE_TRANSLATIONS = {
         "cta": "Start now"
       }
     },
+    "pricing": {
+      "label": "Pricing",
+      "heading": "Choose your plan",
+      "subheading": "No long-term contracts. Upgrade or cancel anytime.",
+      "basic": {
+        "name": "BASIC",
+        "price": "19",
+        "period": "/month",
+        "description": "Ideal for small homes that want to start automating their space.",
+        "features": [
+          "Up to 8 devices",
+          "Energy consumption reports",
+          "24/7 support",
+          "Remote on/off control",
+          "Informative dashboard"
+        ],
+        "unavailable": [
+          "Advanced reports",
+          "External integrations"
+        ],
+        "cta": "Get started"
+      },
+      "business": {
+        "name": "BUSINESS",
+        "price": "29",
+        "period": "/month",
+        "badge": "MOST POPULAR",
+        "description": "For homes and offices that want full control of their devices and real-time monitoring.",
+        "features": [
+          "All Basic plan features",
+          "Up to 20 devices",
+          "Unlimited automations",
+          "Priority support 24/7",
+          "Advanced reports",
+          "External integrations"
+        ],
+        "cta": "Get started"
+      },
+      "enterprise": {
+        "name": "ENTERPRISE",
+        "price": "39",
+        "period": "/month",
+        "description": "For companies, buildings and large-scale projects.",
+        "features": [
+          "Unlimited devices",
+          "Unlimited automations",
+          "Custom dashboard",
+          "Guaranteed SLA",
+          "ERP/BMS integration",
+          "Dedicated account manager"
+        ],
+        "cta": "Contact sales"
+      }
+    },
     "testimonials": {
       "heading": "Real voices",
       "subheading": "What project leaders say about Vantage PMO",
@@ -380,6 +434,60 @@ const INLINE_TRANSLATIONS = {
         "title": "Lidera con confianza y datos",
         "text": "Toma decisiones respaldadas por inteligencia, no solo por hábito.",
         "cta": "Comenzar ahora"
+      }
+    },
+    "pricing": {
+      "label": "Precios",
+      "heading": "Elige tu plan",
+      "subheading": "Sin contratos a largo plazo. Actualiza o cancela en cualquier momento.",
+      "basic": {
+        "name": "BÁSICO",
+        "price": "19",
+        "period": "/mes",
+        "description": "Ideal para casas pequeñas que desean comenzar a automatizar su espacio.",
+        "features": [
+          "Hasta 8 dispositivos",
+          "Reportes de consumo de energía",
+          "Soporte 24/7",
+          "Control remoto encendido/apagado",
+          "Panel de control informativo"
+        ],
+        "unavailable": [
+          "Reportes avanzados",
+          "Integraciones externas"
+        ],
+        "cta": "Comenzar"
+      },
+      "business": {
+        "name": "NEGOCIO",
+        "price": "29",
+        "period": "/mes",
+        "badge": "MÁS POPULAR",
+        "description": "Para hogares y oficinas que desean control total de sus dispositivos y monitoreo en tiempo real.",
+        "features": [
+          "Todas las funciones del plan Básico",
+          "Hasta 20 dispositivos",
+          "Automatizaciones ilimitadas",
+          "Soporte prioritario 24/7",
+          "Reportes avanzados",
+          "Integraciones externas"
+        ],
+        "cta": "Comenzar"
+      },
+      "enterprise": {
+        "name": "EMPRESARIAL",
+        "price": "39",
+        "period": "/mes",
+        "description": "Para empresas, edificios y proyectos a gran escala.",
+        "features": [
+          "Dispositivos ilimitados",
+          "Automatizaciones ilimitadas",
+          "Panel personalizado",
+          "SLA garantizado",
+          "Integración ERP/BMS",
+          "Gestor de cuenta dedicado"
+        ],
+        "cta": "Contactar ventas"
       }
     },
     "testimonials": {
