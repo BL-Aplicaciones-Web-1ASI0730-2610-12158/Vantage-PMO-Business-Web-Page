@@ -97,6 +97,60 @@
       "cta": "Comenzar ahora"
     }
   },
+  "pricing": {
+    "label": "Precios",
+    "heading": "Elige tu plan",
+    "subheading": "Sin contratos a largo plazo. Actualiza o cancela en cualquier momento.",
+    "basic": {
+      "name": "BÁSICO",
+      "price": "19",
+      "period": "/mes",
+      "description": "Ideal para casas pequeñas que desean comenzar a automatizar su espacio.",
+      "features": [
+        "Hasta 8 dispositivos",
+        "Reportes de consumo de energía",
+        "Soporte 24/7",
+        "Control remoto encendido/apagado",
+        "Panel de control informativo"
+      ],
+      "unavailable": [
+        "Reportes avanzados",
+        "Integraciones externas"
+      ],
+      "cta": "Comenzar"
+    },
+    "business": {
+      "name": "NEGOCIO",
+      "price": "29",
+      "period": "/mes",
+      "badge": "MÁS POPULAR",
+      "description": "Para hogares y oficinas que desean control total de sus dispositivos y monitoreo en tiempo real.",
+      "features": [
+        "Todas las funciones del plan Básico",
+        "Hasta 20 dispositivos",
+        "Automatizaciones ilimitadas",
+        "Soporte prioritario 24/7",
+        "Reportes avanzados",
+        "Integraciones externas"
+      ],
+      "cta": "Comenzar"
+    },
+    "enterprise": {
+      "name": "EMPRESARIAL",
+      "price": "39",
+      "period": "/mes",
+      "description": "Para empresas, edificios y proyectos a gran escala.",
+      "features": [
+        "Dispositivos ilimitados",
+        "Automatizaciones ilimitadas",
+        "Panel personalizado",
+        "SLA garantizado",
+        "Integración ERP/BMS",
+        "Gestor de cuenta dedicado"
+      ],
+      "cta": "Contactar ventas"
+    }
+  },
   "testimonials": {
     "heading": "Voces reales",
     "subheading": "Lo que dicen los líderes de proyectos sobre Vantage PMO",
